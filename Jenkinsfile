@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-     app = docker.build("pankajjka/nodeapp")
+     app = docker.build("pankajjka/nodeappjenkinsdocker")
     }
 
     stage('Test image') {
